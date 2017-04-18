@@ -1,7 +1,10 @@
-# test coverage for  [modernizr (v3.4.0)](https://github.com/Modernizr/Modernizr#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-modernizr.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-modernizr) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-modernizr.svg)](https://travis-ci.org/npmtest/node-npmtest-modernizr)
+# npmtest-modernizr
+
+#### test coverage for  [modernizr (v3.5.0)](https://github.com/Modernizr/Modernizr#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-modernizr.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-modernizr) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-modernizr.svg)](https://travis-ci.org/npmtest/node-npmtest-modernizr)
+
 #### Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.
 
-[![NPM](https://nodei.co/npm/modernizr.png?downloads=true)](https://www.npmjs.com/package/modernizr)
+[![NPM](https://nodei.co/npm/modernizr.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/modernizr)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-modernizr/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-modernizr/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-modernizr/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-modernizr/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-modernizr/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-modernizr/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-modernizr/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-modernizr/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-modernizr/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-modernizr/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-modernizr%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-modernizr/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-modernizr/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-modernizr/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-modernizr/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-modernizr%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-modernizr/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-modernizr/build/test-report.html](https://npmtest.github.io/node-npmtest-modernizr/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-modernizr/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-modernizr/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-modernizr/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-modernizr/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-modernizr/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-modernizr/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-modernizr/build/screenCapture.npmPackageListing.svg)
 
@@ -74,14 +83,14 @@
         "mkdirp": "0.5.1",
         "remarkable": "^1.6.2",
         "requirejs": "2.1.22",
-        "yargs": "6.6.0"
+        "yargs": "7.0.2"
     },
     "description": "Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.",
     "devDependencies": {
         "@alrra/travis-scripts": "1.1.1",
         "expect.js": "0.3.1",
         "grunt": "1.0.1",
-        "grunt-contrib-clean": "1.0.0",
+        "grunt-contrib-clean": "1.1.0",
         "grunt-contrib-connect": "1.0.2",
         "grunt-contrib-copy": "1.0.0",
         "grunt-contrib-jade": "1.0.0",
@@ -103,10 +112,10 @@
         "test": "test"
     },
     "dist": {
-        "shasum": "2eb7617677a6b6bb72a2d3b60fe4e702c4c9d067",
-        "tarball": "https://registry.npmjs.org/modernizr/-/modernizr-3.4.0.tgz"
+        "shasum": "396a02231bdc54628bbde2c0813a8e884c7e8060",
+        "tarball": "https://registry.npmjs.org/modernizr/-/modernizr-3.5.0.tgz"
     },
-    "gitHead": "32fd455750c53a6233b8a9ebd5742adc5b9af054",
+    "gitHead": "7db55bbfa9de67289892b94b60bf2f088c11d669",
     "greenkeeper": {
         "ignore": [
             "joi",
@@ -132,33 +141,26 @@
     "main": "./lib/cli",
     "maintainers": [
         {
-            "name": "patrickkettner",
-            "email": "patrickkettner@gmail.com"
+            "name": "patrickkettner"
         },
         {
-            "name": "paulirish",
-            "email": "paul.irish@gmail.com"
+            "name": "paulirish"
         },
         {
-            "name": "slexaxton",
-            "email": "alexsexton@gmail.com"
+            "name": "slexaxton"
         },
         {
-            "name": "ryanseddon",
-            "email": "seddon.ryan@gmail.com"
+            "name": "ryanseddon"
         },
         {
-            "name": "doctyper",
-            "email": "rich@doctyper.com"
+            "name": "doctyper"
         },
         {
-            "name": "stucox",
-            "email": "stuart.cox@gmail.com"
+            "name": "stucox"
         }
     ],
     "name": "modernizr",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/Modernizr/Modernizr.git"
@@ -166,7 +168,7 @@
     "scripts": {
         "test": "grunt test --stack"
     },
-    "version": "3.4.0"
+    "version": "3.5.0"
 }
 ```
 
