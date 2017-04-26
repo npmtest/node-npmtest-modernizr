@@ -1,7 +1,7 @@
 <svg height="1038" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="1038" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">13 megabytes installed</tspan>
+<tspan x="10" y="26">12 megabytes installed</tspan>
 <tspan x="10" y="42"></tspan>
 <tspan x="10" y="58">node_modules</tspan>
 <tspan x="10" y="74">└─┬ modernizr@3.5.0 </tspan>
@@ -44,7 +44,7 @@
 <tspan x="10" y="666">    │   │ ├── pify@2.3.0 </tspan>
 <tspan x="10" y="682">    │   │ └─┬ strip-bom@2.0.0 </tspan>
 <tspan x="10" y="698">    │   │   └── is-utf8@0.2.1 </tspan>
-<tspan x="10" y="714">    │   ├─┬ normalize-package-data@2.3.6 </tspan>
+<tspan x="10" y="714">    │   ├─┬ normalize-package-data@2.3.8 </tspan>
 <tspan x="10" y="730">    │   │ ├── hosted-git-info@2.4.2 </tspan>
 <tspan x="10" y="746">    │   │ ├─┬ is-builtin-module@1.0.0 </tspan>
 <tspan x="10" y="762">    │   │ │ └── builtin-modules@1.1.1 </tspan>
